@@ -10,9 +10,13 @@ export function Projects() {
         title="Selected work that reflects how I build."
         subtitle="These projects show the problems I enjoy: data pipelines and analytics, agentic AI systems, machine learning, and backend services with real user value."
       />
-      <div className="mt-12 grid gap-6 lg:grid-cols-3">
+      <div className="mt-12 flex flex-wrap justify-center gap-6">
         {projects.map((p, i) => (
-          <Reveal key={p.name} delay={i * 0.1}>
+          <Reveal
+            key={p.name}
+            delay={(i % 3) * 0.1}
+            className="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]"
+          >
             <Card className="flex h-full flex-col">
               <div className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-3">
                 <p className="min-w-0 text-[0.6rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
