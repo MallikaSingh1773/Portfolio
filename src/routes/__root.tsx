@@ -75,16 +75,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Mallika Singh — Java Backend & AI Engineer" },
+      { title: "Mallika Singh | Data Engineer & AI Engineer" },
       { name: "author", content: "Mallika Singh" },
       { property: "og:site_name", content: "Mallika Singh Portfolio" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:title", content: "Mallika Singh — Java Backend & AI Engineer" },
-      { name: "twitter:title", content: "Mallika Singh — Java Backend & AI Engineer" },
-      { name: "description", content: "A premium personal portfolio showcasing expertise in backend engineering, AI, and full-stack development." },
-      { property: "og:description", content: "A premium personal portfolio showcasing expertise in backend engineering, AI, and full-stack development." },
-      { name: "twitter:description", content: "A premium personal portfolio showcasing expertise in backend engineering, AI, and full-stack development." },
+      { property: "og:title", content: "Mallika Singh | Data Engineer & AI Engineer" },
+      { name: "twitter:title", content: "Mallika Singh | Data Engineer & AI Engineer" },
+      { name: "description", content: "Portfolio of Mallika Singh, a Data Engineer and AI Engineer working with Python, SQL, ETL pipelines, RAG, LangChain, and LangGraph, with a strong Java Spring Boot backend foundation." },
+      { property: "og:description", content: "Portfolio of Mallika Singh, a Data Engineer and AI Engineer working with Python, SQL, ETL pipelines, RAG, LangChain, and LangGraph, with a strong Java Spring Boot backend foundation." },
+      { name: "twitter:description", content: "Portfolio of Mallika Singh, a Data Engineer and AI Engineer working with Python, SQL, ETL pipelines, RAG, LangChain, and LangGraph, with a strong Java Spring Boot backend foundation." },
 
     ],
     links: [

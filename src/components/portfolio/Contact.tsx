@@ -30,7 +30,7 @@ export function Contact() {
       <SectionHeader
         eyebrow="Contact"
         title="Let's build something impactful together."
-        subtitle="I'm open to backend engineering, full stack, and AI engineering opportunities with teams solving strong technical problems."
+        subtitle="I'm open to Data Engineer, AI Engineer, and Java backend opportunities with teams solving strong technical problems."
       />
       <div className="mt-12 grid gap-6 lg:grid-cols-2">
         <Reveal>
@@ -42,7 +42,7 @@ export function Contact() {
               Available for the next meaningful opportunity.
             </h3>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              If you're hiring, collaborating on a project, or want to discuss backend and AI
+              If you're hiring, collaborating on a project, or want to discuss data and AI
               engineering, I'd be happy to connect. Email is the quickest way to reach me.
             </p>
             <div className="mt-6 grid gap-3 sm:grid-cols-2">

@@ -84,7 +84,7 @@ export function Hero() {
         >
           <img
             src={heroImage}
-            alt="Portrait of Mallika Singh, Java backend and AI engineer"
+            alt="Portrait of Mallika Singh, data and AI engineer"
             width={640}
             height={720}
             loading="eager"
@@ -96,8 +96,8 @@ export function Hero() {
             </p>
             <p className="mt-2 text-xl font-bold text-foreground">{profile.name}</p>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              B.Tech Computer Science Engineering graduate from VIT Amaravati, building enterprise
-              backend systems with Spring Boot and Angular alongside Agentic AI applications.
+              B.Tech Computer Science Engineering graduate from Vellore Institute of Technology, Andhra Pradesh, building data pipelines,
+              RAG and agentic AI applications, and Java Spring Boot backends.
             </p>
           </div>
         </motion.div>

@@ -1,4 +1,4 @@
-import { Code2, Server, LayoutGrid, Database, Cloud, Cpu } from "lucide-react";
+import { Code2, Server, LayoutGrid, Database, Cloud, Cpu, Brain, BarChart3 } from "lucide-react";
 import { skills } from "@/data/portfolio";
 import { Card, Reveal, Section, SectionHeader } from "./primitives";
 
@@ -9,6 +9,8 @@ const icons = {
   database: Database,
   cloud: Cloud,
   cpu: Cpu,
+  brain: Brain,
+  chart: BarChart3,
 } as const;
 
 export function Skills() {
@@ -16,8 +18,8 @@ export function Skills() {
     <Section id="skills">
       <SectionHeader
         eyebrow="Skills"
-        title="A practical toolkit across backend, full stack, and AI workflows."
-        subtitle="I focus on technologies that help me ship reliable enterprise software, with enough depth to design robust systems and enough range to build end to end."
+        title="A practical toolkit across data engineering, generative AI, and backend systems."
+        subtitle="I focus on technologies that help me move and model data reliably, build LLM-powered applications, and ship solid backends end to end."
       />
       <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {skills.map((group, i) => {

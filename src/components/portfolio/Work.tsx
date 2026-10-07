@@ -8,7 +8,7 @@ export function Projects() {
       <SectionHeader
         eyebrow="Projects"
         title="Selected work that reflects how I build."
-        subtitle="These projects show the problems I enjoy: agentic AI systems, backend services, and machine learning products with real user value."
+        subtitle="These projects show the problems I enjoy: data pipelines and analytics, agentic AI systems, machine learning, and backend services with real user value."
       />
       <div className="mt-12 grid gap-6 lg:grid-cols-3">
         {projects.map((p, i) => (
@@ -67,7 +67,7 @@ export function Experience() {
     <Section id="experience">
       <SectionHeader
         eyebrow="Experience"
-        title="Enterprise engineering and applied AI work."
+        title="Data engineering, applied AI, and backend work."
       />
       <div className="relative mt-12 pl-6 sm:pl-10">
         <div className="absolute left-1.5 top-2 h-[calc(100%-1rem)] w-px bg-border sm:left-3" />

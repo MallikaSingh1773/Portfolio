@@ -41,8 +41,8 @@ export function About() {
               Professional and easy to reach.
             </h3>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              Open to backend engineering, full stack, and AI engineering roles where I can build
-              reliable enterprise-grade software.
+              Open to Data Engineer, AI Engineer, and Java backend roles where I can build
+              reliable data and AI-powered software.
             </p>
             <div className="mt-6 space-y-3">
               {[

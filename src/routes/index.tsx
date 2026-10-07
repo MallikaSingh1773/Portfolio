@@ -7,9 +7,9 @@ import { Projects, Experience } from "@/components/portfolio/Work";
 import { Certifications } from "@/components/portfolio/Certifications";
 import { Contact, Footer } from "@/components/portfolio/Contact";
 
-const title = "Mallika Singh — Java Backend & AI Engineer";
+const title = "Mallika Singh | Data Engineer & AI Engineer";
 const description =
-  "Portfolio of Mallika Singh, a Computer Science Engineering graduate building scalable Spring Boot backends, Angular full stack apps, and Agentic AI systems.";
+  "Portfolio of Mallika Singh, a Data Engineer and AI Engineer working with Python, SQL, ETL pipelines, RAG, LangChain, and LangGraph, with a strong Java Spring Boot backend foundation.";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -31,9 +31,9 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "Person",
           name: "Mallika Singh",
-          jobTitle: "Java Backend Engineer, Full Stack Developer, AI Engineer",
+          jobTitle: "Data Engineer, AI Engineer, Java Backend Developer",
           email: "mailto:singhmallika1773@gmail.com",
-          alumniOf: "VIT Amaravati",
+          alumniOf: "Vellore Institute of Technology, Andhra Pradesh",
           sameAs: [
             "https://github.com/MallikaSingh1773",
             "https://www.linkedin.com/in/mallikasingh05",
