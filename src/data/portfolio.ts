@@ -170,20 +170,6 @@ export const projects = [
     tech: ["Python", "Streamlit", "Scikit-learn", "Pandas", "Machine Learning"],
   },
   {
-    name: "BrailleEase",
-    subtitle: "Real-Time Text to Braille Assistive System",
-    github: "https://github.com/MallikaSingh1773/Real-Time-Text-Recognition-and-Braille-Conversion-System-",
-    description:
-      "An assistive technology system for visually impaired users that reads printed text from a webcam in real time and converts it into physical Braille output on Arduino hardware.",
-    highlights: [
-      "Captured and preprocessed webcam frames with OpenCV for reliable text detection.",
-      "Extracted text with Tesseract OCR and cleaned it using spaCy text processing.",
-      "Mapped recognized text to Braille patterns and drove an Arduino programmed in C/C++ to produce them.",
-      "Built a Tkinter desktop GUI to run the full recognition to Braille pipeline in real time.",
-    ],
-    tech: ["Python", "OpenCV", "Tesseract OCR", "spaCy", "Arduino", "C/C++"],
-  },
-  {
     name: "EventX",
     subtitle: "Full Stack Event Booking Platform",
     github: "https://github.com/MallikaSingh1773/eventx",
